@@ -19,9 +19,9 @@ app.Run();
 
 public class DreamedHidesHub : Hub
 {
-    public async Task SendPing(int clientNr)
+    public async Task SendPing(string foxIdentity)
     {
-        Console.WriteLine($"[Server] Received Ping from client {clientNr}! Responding with Pong...");
-        await Clients.All.SendAsync("ReceivePong", $"Pong - invoked by Client {clientNr}");
+        Console.WriteLine($"[Server] Received Ping from client {foxIdentity}! Responding with Pong...");
+        await Clients.All.SendAsync("ReceivePong", $"Pong - invoked by {foxIdentity}");
     }
 }

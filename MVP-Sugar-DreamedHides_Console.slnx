@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/Fox.GameServer/Fox.GameServer.csproj" />
+  <Project Path="src/Fox.Receiver/Fox.Receiver.csproj" />
+  <Project Path="src/Fox.Sender/Fox.Sender.csproj" />
+</Solution>

@@ -3,7 +3,7 @@
 Console.Title = "Fox.Receiver";
 
 Console.WriteLine("------------------------------------------------------------------------------");
-Console.WriteLine("\nWelcome to\n \nMVP-Sugar Dreamed Hides console Client 2\n");
+Console.WriteLine("\nWelcome to\n \nMVP-Sugar Dreamed Hides console Fox.Receiver\n");
 Console.WriteLine("------------------------------------------------------------------------------");
 
 Console.WriteLine("\nConnecting Client to server...\n");
